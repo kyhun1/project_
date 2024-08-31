@@ -1,0 +1,25 @@
+ ping / 방화벽 확인 
+telnet ip port 
+ping ip 
+
+플랫폼 개별 프로세스 시작 및 종료 
+설치 되어 있는 노드  
+servic 프로세명 [start/stop/restart] 
+
+service 프로세스명 status
+
+플랫폼 agent start/ stop 
+sudo serivce ~agent strop 
+sudo serivce ~agent start
+
+JDBC 드라이버 추가 
+/usr/lib/tomcat/lib 
+
+JDBC 드리아버 추가 후 서비스 시작 
+ansible-playbook -i host start.yml 
+
+플랫폼 종료 
+ansible-playbook -i hosts stop.yml
+
+플랫폼 재시작 
+ansible-playbook -i hosts restart.yml
